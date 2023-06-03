@@ -93,9 +93,7 @@
             font-weight: normal;
         }
 
-        input:focus {
-            background-color: yellow;
-        }
+    
     </style>
 </head>
 
@@ -106,14 +104,17 @@
                 <img src="https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png" alt="instagram icon"><br><br>
             </div>
             <div class="l-part">
-                <input type="text" placeholder="Username" class="input-1" /><br>
-                <div class="overlap-text">
-                    <input type="password" placeholder="Password" class="input-2" />
-                </div><br>
-                <input type="button" value="Log in" class="btn" /><br><br>
-                <input type="checkbox" id="remember" name="remember">
-                <label for="remember">Remember me</label>
-                <a href="#">Forgot Password?</a>
+                <form action="">
+
+                    <input type="text" placeholder="Username" required class="input-1" /><br>
+                    <div class="overlap-text">
+                        <input type="password" placeholder="Password" required class="input-2" />
+                    </div><br>
+                    <input type="submit" value="Log in" class="btn" /><br><br>
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </form>
             </div>
         </div>
         <div class="sub-content">
